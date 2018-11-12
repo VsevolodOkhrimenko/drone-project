@@ -1,0 +1,33 @@
+.nav-right {
+    margin-left: auto;
+}
+
+.main section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.main .introdaction h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main .introdaction hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.main .introdaction .image img {
+    width: 100%;
+}
+
+footer {
+    padding-top: 15px;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    footer {
+        text-align: center;
+    }
+}
