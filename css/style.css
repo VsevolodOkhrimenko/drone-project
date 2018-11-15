@@ -1,7 +1,29 @@
-.nav-right {
-    margin-left: auto;
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    background-image: url(../src/bg-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
+.nav-right {
+    margin: auto;
+}
+.about-us {
+    text-align: center;
+    background-image: url(../src/green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.equipment {
+    background-image: url(../src/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-w h1, p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
 .main section {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -31,3 +53,11 @@ footer {
         text-align: center;
     }
 }
+.btn-link {
+    color: black;
+}
+.images img  {
+    padding: 15px; /* Расстояние от картинки до рамки */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+   }
