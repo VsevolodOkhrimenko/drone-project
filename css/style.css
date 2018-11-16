@@ -1,69 +1,70 @@
 body {
   font-family: 'Libre Franklin', sans-serif;
-  background-image: url(../src/bg-header.png);
+  background-image: url(../src/body.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
-.nav-right {
-  margin: auto;
+  background-position: center center;
 }
 .about-us {
   text-align: center;
-  background-image: url(../src/green.jpg);
+  background-image: url(../src/about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .equipment {
-  background-image: url(../src/bg-header.jpg);
+  background-image: url(../src/equipm.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .team {
-  background-image: url(../src/green.jpg);
+  background-image: url(../src/team.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.contacts h1 {
-  font-size: 2rem;
+/*RESPONSIVE SETTINGS*/
+@media (min-width: 769px) {
+  body {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 }
+@media (max-width: 767px) {
+  footer {
+      text-align: center;
+  }
+  body, img, iframe {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/*NAVBAR*/
+.nav-right {
+  margin: auto;
+}
+.contact-us {
+  color: black;
+}
+/*MAIN*/
 .text-w h1, p{
   color: white;
   font-weight: bold;
   text-align: center;
 }
-.main section {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-.main .introdaction h3 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.main .introdaction hr {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.main .introdaction .image img {
-  width: 100%;
-}
-
-footer {
-  padding-top: 15px;
-  color: #fff;
-}
-
-@media (max-width: 767px) {
-  footer {
-      text-align: center;
-  }
-}
+/*HEADER*/
 .btn-link {
   color: black;
 }
+/*ABOUT US*/
+/*EQUIPMENT*/
+/*GALERRY*/
 .image-center, .gallery img  {
   width: 100%;
   height: auto;
@@ -71,8 +72,8 @@ footer {
   vertical-align: super;
 }
 .btn:focus, .btn:active, button:focus, button:active {
-  outline: none !important;
-  box-shadow: none !important;
+  outline: none;
+  box-shadow: none;
 }
 
 #image-gallery .modal-footer{
@@ -82,6 +83,17 @@ footer {
 .thumb{
   margin-top: 15px;
   margin-bottom: 15px;
+}
+/*TEAM*/
+.btn-primary {
+  color: white;
+  background-color: grey;
+  border: 1px solid black;
+}
+.btn-primary:hover {
+  color: grey;
+  background-color: white;
+  border: 1px solid black;
 }
 .cards .row .col-md-6 {
   text-align: center;
@@ -113,23 +125,23 @@ footer {
   width: 50%;
   border-radius: 100%;
 }
-.btn-primary {
-  color: white;
-  background-color: grey;
-  border: 1px solid black;
-}
-.btn-primary:hover {
-  color: grey;
-  background-color: white;
-  border: 1px solid black;
-}
+/*COLOR COR*/
 .juxtapose {
-  height: 500px;
-  width: 857px;
+  max-width: 992px;
+  margin: 0 auto;
 }
 .color-correction {
   text-align: center;
 } 
+/*CONTACTS*/
+.contacts h1 {
+  font-size: 2rem;
+}
+/*FOOTER*/
+footer {
+  padding-top: 15px;
+  color: #fff;
+}
 .fluid {
   padding: 0px;
   border: 0px;
@@ -156,9 +168,4 @@ footer {
     -webkit-box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
     -moz-box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
     box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
-}
-@media (max-width: 767px) {
-  .social-footer {
-    text-align: center;
-  }
 }
