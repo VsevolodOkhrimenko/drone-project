@@ -15,51 +15,46 @@
 
     <title>Drone project</title>
   </head>
-  <body>
+  <!-- Scroll Spy -->
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Nav bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="#">
-  <img class ="logo" src="src/foot.jpg" width="32" height="32" class="d-inline-block align-top" alt="#">
-  Drone Project
-  </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
+    <img class ="logo" src="src/foot.jpg" width="32" height="32" class="d-inline-block align-top" alt="#">
+    Drone Project
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
       <div class="navbar-collapse" id="navbarNav">
         <div class="nav-right">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                 <a class="nav-link" href="#">About us</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Equipment</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Gallery</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Advantages</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Team</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Our projects</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Color correction</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Contacts</a>
-              </li>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link" href="#about-us">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#equipment">Equipment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#color-correction">Color correction</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
           </ul>
-          </div>
-          <div class="contact-us">
-         <a href="mailto:mailto:info@timelab.pro" style="color: black">info@timelab.pro</a>  
-         <br>
-         <a href="https://api.whatsapp.com/send?phone=79045138775" target="_blank" style="color: black"> +7 904 513-87-75</a>
-    </div>
+        </div>
+      <div class="contact-us">
+        <a href="mailto:mailto:info@timelab.pro" style="color: black">info@timelab.pro</a>  
+        <br>
+        <a href="https://api.whatsapp.com/send?phone=79045138775" target="_blank" style="color: black"> +7 904 513-87-75</a>
       </div>
+    </div>
   </nav>
     <!-- Nav bar ends -->
     <!-- Main -->
@@ -119,7 +114,7 @@
     </div>
     <hr class="divider">
     <div class="content">
-      <div class="about-us text-w">
+      <div id = "about-us" class="about-us text-w">
         <div class="container">
           <h1>ABOUT US</h1>
           <p>
@@ -145,7 +140,7 @@
         </div>  
         </div>
       </div>
-      <div class="equipment text-w">
+      <div id = "equipment" class="equipment text-w">
         <div class="container">
           <h1>Equipment</h1>
           <div class="carousel">
@@ -188,7 +183,7 @@
           </div>
         </div>
       </div>
-      <div class="gallery text-w">
+      <div id = "gallery" class="gallery text-w">
         <div class="container">
           <h1>GALLERY</h1>
             <div class="row">
@@ -318,7 +313,7 @@
         </div>
       </div>
     </div>
-    <div class="team text-w">
+    <div id = "team" class="team text-w">
       <h1>TEAM</h1>
       <div class="container cards">
         <div class="row">
@@ -452,7 +447,7 @@
         </div>
       </div>
     </div>
-     <div class="color-correction text-w">
+     <div id = "color-correction" class="color-correction text-w">
          <h1>Color correction & Grading</h1>
          <p>We focus on doing the best job in color correction and color grading of our raw footage</p>
          <iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=5ffaeca0-e98f-11e8-9dba-0edaf8f81e27"></iframe>
@@ -462,60 +457,62 @@
      </div>
     <!-- Main ends -->
     <!-- Footer -->
-    <footer class="mt-auto bg-dark">
-      <div class="container">
-        <div class="contacts text-w">
-      <h1>CONTACTS</h1>
-        <div class="contact">
-          <hr class="divider-contacts top">
-          <div class="container-fluid footer-background" id="ContactLink">
+    <footer class="footer mt-auto bg-dark">
+      <div id= "contacts" class="contacts text-w ">
+        <div class="container">
+          <h1>CONTACTS</h1>
+          <p>We focus on doing the best job in color correction and color grading of our raw footage</p>
             <div class="row">
-              <div class="col-md-6">
-                <p><a href="https://www.facebook.com/maehuterszn/" class="social email">Facebook - MH</a></p>
-                        <p><a href="https://www.facebook.com/mr.xoct" class="social call number-padding">Dmitry Voennov</a></p>
-                        <p><a href="https://www.facebook.com/alex.ivanov.3511041" class="social wa number-padding">Alexander Ivanov</a></p>
-                        <p><a href="https://www.facebook.com/eugene.obruchkov" class="social vb number-padding">Evgeny Obruchkov</a></p>
+              <div class="col-md-4">
+                <img class ="logo" src="src/foot.jpg" width="168" height="168" class="d-inline-block align-top" alt="#">
               </div>
-              <div class="col-md-6 image">
+              <div class="col-md-8">
+                <p><a href="https://www.facebook.com/maehuterszn/" class="social email">Facebook - MH</a></p>
+                <p><a href="https://www.facebook.com/mr.xoct" class="social call number-padding">Dmitry Voennov</a></p>
+                <p><a href="https://www.facebook.com/alex.ivanov.3511041" class="social wa number-padding">Alexander Ivanov</a></p>
+                <p><a href="https://www.facebook.com/eugene.obruchkov" class="social vb number-padding">Evgeny Obruchkov</a></p>
               </div>
             </div>
           </div>
-          <hr class="divider-contacts bot">
         </div>
-          <footer class="mastfoot mt-auto">
-            <div class="inner">
-              <p class="by-line">For <a href="https://www.facebook.com/mazehunters/" target="_blank">Maze Hunters</a>, by <a href="https://www.facebook.com/yevhenii.mostovenko" target="_blank">Yevhenii Mostovenko</a>.</p>
-            </div>
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6 left">
+          <div class ="offset-md-7 social-footer">
+            <div class="social-youtbe">
+                <a href="https://www.youtube.com/c/fcdk" title ="Клубный канал Youtube" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+            </div>
+            <div class="social-insta">
+                <a href="https://www.instagram.com/fc_dynamo_kyiv/" title ="Страница Динамо Киев Instagram" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
+            <div class="social-faceb">
+                <a href="https://www.facebook.com/fcdynamoua" title ="Страница Динамо Киев Facebook" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+            </div>
+            <div class="social-twitter">
+                <a href="https://twitter.com/dynamokyiv" title ="Страница Динамо Киев Twitter" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            </div>
+            <div class="social-google">
+                <a href="https://plus.google.com/+1927DynamoKyiv/" title ="Страница Динамо Киев Google Plus" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>    
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="copyright col-md-4">
             <p>
               © 2018 Open Source University
             </p>
           </div>
-          <div class="col-md-6 right">
+          <div class="inner col-md-4">
+            <p>For <a href="https://www.facebook.com/mazehunters/" target="_blank">Maze Hunters</a>, by <a href="https://www.facebook.com/yevhenii.mostovenko" target="_blank">Yevhenii Mostovenko</a>.</p>
+          </div>
+          <div class="buttons col-md-4">
             <p>
               Cookie Policy | Terms and conditions | Privacy Policy | User & Datа Privacy
             </p>
           </div>
-          <div class ="container-fluid">
-        <div class="row">
-          <div class ="offset-md-7 social-footer">
-          <div class="social-youutbe">
-              <a href="https://www.youtube.com/c/fcdk" title ="Клубный канал Youtube" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
-          </div>
-          <div class="social-insta">
-              <a href="https://www.instagram.com/fc_dynamo_kyiv/" title ="Страница Динамо Киев Instagram" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-          </div>
-          <div class="social-faceb">
-              <a href="https://www.facebook.com/fcdynamoua" title ="Страница Динамо Киев Facebook" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
-          </div>
-          <div class="social-twitter">
-              <a href="https://twitter.com/dynamokyiv" title ="Страница Динамо Киев Twitter" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-          </div>
-          <div class="social-google">
-              <a href="https://plus.google.com/+1927DynamoKyiv/" title ="Страница Динамо Киев Google Plus" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>    
-          </div>
         </div>
+      </div>
     </footer>
     <!-- Footer ends -->
     <!-- Optional JavaScript -->

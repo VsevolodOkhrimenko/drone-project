@@ -24,8 +24,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.contacts {
-
+.contacts h1 {
+  font-size: 2rem;
 }
 .text-w h1, p{
   color: white;
@@ -135,14 +135,14 @@ footer {
   border: 0px;
 }
 .social-footer {
-    float:right;
-    color:grey;
+    float: right;
+    color: grey;
     display: inline-flex;
     margin-right: 70px;
     /* background-color: grey; */
     /* border-radius: 10px; */
     margin-bottom: 0;
-    
+    text-align: center;
 }
 .social-footer a {
     color:#fff;
@@ -156,4 +156,9 @@ footer {
     -webkit-box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
     -moz-box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
     box-shadow: 15px 18px 41px -4px rgba(0,0,0,1);
+}
+@media (max-width: 767px) {
+  .social-footer {
+    text-align: center;
+  }
 }
